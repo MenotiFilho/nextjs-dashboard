@@ -15,6 +15,7 @@ const iconMap = {
 };
 
 export default async function CardWrapper() {
+    "use cache"
     const {
         numberOfInvoices,
         numberOfCustomers,

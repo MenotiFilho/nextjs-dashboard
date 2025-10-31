@@ -5,6 +5,7 @@ import {lusitana} from '@/app/ui/fonts';
 import {fetchLatestInvoices} from "@/app/lib/data";
 
 export default async function LatestInvoices() {
+    "use cache"
     const latestInvoices = await fetchLatestInvoices()
 
     return (
